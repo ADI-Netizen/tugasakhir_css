@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas CSS Bootstrap</title>
+    <link rel="shortcut icon" href="img/saitama.png" type="image/png">
+    <style media="screen">
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .icon-home {
+            height: 50px;
+        }
+    </style>
+    <!-- Online Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Progamer</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tugas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="html_css.html">HTML - CSS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="reactjs.html">React JS</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">PHP - DB</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Slider -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="https://images.unsplash.com/photo-1536183922588-166604504d5e?ixlib=rb-1.2.1&w=1000&q=80"
+                        alt="building01" width="100%" height="550px">
+                    <div class="carousel-caption">
+                        <img src="https://i1.wp.com/rebnoise.com/wordpress/wp-content/uploads/2015/06/deathbat.jpeg?fit=800%2C800&ssl=1"
+                            alt="building01" width="20%" class="rounded-circle mb-5">
+                        <h1>P R O G A M E R</h1>
+                        <p>Bukan Programmer tapi progamer. Tidak terlalu pro untuk mengikuti e-sports, bermain game
+                            hanya untuk bersenang-senang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark"></nav>
+        <br>
+        <section class="section-warp">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="media">
+                            <img src="img/home.png" class="icon-home" alt="">
+                            <div class="media-body">
+                                <h1>&nbsp; Alamat Kantor</h1>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h4>Dinas Pangan</h4>
+                            <p>Jl. By Pass Tanjung Pura No. 1 Karawang</p>
+                            <p>(0267) 400 075</p>
+                            <p>pangan@karawangkab.go.id</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="media">
+                            <img src="img/link.png" class="icon-home" alt="">
+                            <div class="media-body">
+                                <h1>&nbsp; Link</h1>
+                            </div>
+                        </div>
+                        <div class="">
+                            <p align="justify">
+                                <a href="http://www.niomic.com" target="_blank" rel="noopener noreferrer">Niomic</a><br>
+                                <a href="https://www.Instagram.com" target="_blank"
+                                    rel="noopener noreferrer">Instagram</a><br>
+                                <a href="http://www.Facebook.com" target="_blank"
+                                    rel="noopener noreferrer">Facebook</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Online Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
